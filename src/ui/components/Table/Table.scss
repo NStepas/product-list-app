@@ -1,0 +1,23 @@
+@import '../../assets/styles/colors.scss';
+
+.container {
+  width: 100%;
+  min-height: 86vh;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  .tableContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    color: $color-white;
+    .table {
+      width: 350px;
+      height: fit-content;
+      display: flex;
+      justify-content: center;
+      background-color: $color-active-2;
+      color: $color-white;
+    }
+  }
+}

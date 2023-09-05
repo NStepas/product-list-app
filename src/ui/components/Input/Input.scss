@@ -1,0 +1,15 @@
+@import '../../assets/styles/colors.scss';
+
+.input {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+   .error {
+      margin: 0px;
+      color: $color-error;
+      font-weight: 300;
+   }
+}
